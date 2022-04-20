@@ -115,7 +115,7 @@ extension TaskListViewController {
         tableView.deselectRow(at: indexPath, animated: true)
     }
 }
-// MARK: - Alert Controllers (I haven't got enough brain for correct solution)
+// MARK: - Alert Controllers (I haven't got enough brain for correct solution with alone alertController)
 extension TaskListViewController {
 
     private func showAlert(with title: String, and message: String) {
