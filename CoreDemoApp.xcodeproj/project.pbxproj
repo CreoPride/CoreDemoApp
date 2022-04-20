@@ -13,6 +13,7 @@
 		A85E83FF280DD14900FB6B82 /* CoreDemoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A85E83FD280DD14900FB6B82 /* CoreDemoApp.xcdatamodeld */; };
 		A85E8401280DD14A00FB6B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A85E8400280DD14A00FB6B82 /* Assets.xcassets */; };
 		A85E8404280DD14A00FB6B82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85E8402280DD14A00FB6B82 /* LaunchScreen.storyboard */; };
+		D1DF9DF0280F1B7F00345B77 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF9DEF280F1B7F00345B77 /* StorageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A85E8400280DD14A00FB6B82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A85E8403280DD14A00FB6B82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A85E8405280DD14A00FB6B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1DF9DEF280F1B7F00345B77 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				A85E83F4280DD14900FB6B82 /* AppDelegate.swift */,
 				A85E83F6280DD14900FB6B82 /* SceneDelegate.swift */,
+				D1DF9DEF280F1B7F00345B77 /* StorageManager.swift */,
 				A85E83F8280DD14900FB6B82 /* TaskListViewController.swift */,
 				A85E8400280DD14A00FB6B82 /* Assets.xcassets */,
 				A85E8402280DD14A00FB6B82 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				A85E83F9280DD14900FB6B82 /* TaskListViewController.swift in Sources */,
 				A85E83F5280DD14900FB6B82 /* AppDelegate.swift in Sources */,
+				D1DF9DF0280F1B7F00345B77 /* StorageManager.swift in Sources */,
 				A85E83F7280DD14900FB6B82 /* SceneDelegate.swift in Sources */,
 				A85E83FF280DD14900FB6B82 /* CoreDemoApp.xcdatamodeld in Sources */,
 			);
