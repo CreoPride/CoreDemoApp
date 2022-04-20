@@ -111,7 +111,12 @@ extension TaskListViewController {
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let editTask = taskList[indexPath.row]
-        editAlert(with: "Edit Task", and: "Do you want to edit task", editTask: editTask, indexPath: indexPath)
+        editAlert(
+            with: "Edit Task",
+            and: "Do you want to edit task",
+            editTask: editTask,
+            indexPath: indexPath
+        )
         tableView.deselectRow(at: indexPath, animated: true)
     }
 }
@@ -152,7 +157,11 @@ extension TaskListViewController {
     }
 
     private func simpleAlert() {
-        let alert = UIAlertController(title: "Empty Task Name", message: "To edit Task, please, enter correct name", preferredStyle: .alert)
+        let alert = UIAlertController(
+            title: "Empty Task Name",
+            message: "To edit Task, please, enter correct name",
+            preferredStyle: .alert
+        )
         let okAction = UIAlertAction(title: "OK", style: .default)
         alert.addAction(okAction)
         present(alert, animated: true)
